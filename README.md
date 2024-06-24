@@ -25,6 +25,6 @@ python preprocess/image_transform.py --input_dir input --output_dir data/portrai
 2. Our model is trained with defaut hyperparameters. The batch size used is 4 and the number of steps is 1500.
     <div>
     <p align="center">
-    <img src='checkpoint/edge_to_image_results.jpg' align="center" width=800px>
+    <img src='checkpoint/example.png' align="center" width=800px>
     </p>
     </div>
