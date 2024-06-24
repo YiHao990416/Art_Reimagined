@@ -18,6 +18,7 @@ if __name__ == '__main__':
 
     args = args.parse_args()
 
+
     # Define the transformations
     transform_flip = transforms.Compose([
         transforms.Resize((256, 256)),

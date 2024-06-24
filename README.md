@@ -10,5 +10,12 @@ The dataset contain Train_A domain and Train_B where the domain A is the Traditi
 input
     ├── train_photo_input.zip
     └── train_portrait_input.zip
+```
+
+1. To generate the dataset required to train the Cycle-GAN model, please run the preprocess/image_transform.py. The generated dataset will be stored in /data directory which can be used to train the Cycle-GAN directly. 
+2. To apply image transformation to the dataset, we provide a few option such as jittering, horizontal flip, random crop and rotation. To generate dataset with custom transformation please use the below command. The custom dataset will be stored in the /data directory.
+```
+python preprocess/image_transform.py --input_dir input --output_dir data/portrait2photo --use_original True --transform_flip True --transform_crop True --transform_jitter True --transform_rotate True
+```
 
 
