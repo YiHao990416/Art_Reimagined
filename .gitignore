@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 .DS_Store
 input/train_photo_input/
 input/train_portrait_input/
+=======
+__pycache__
+input/train_photo_input
+input/train_portrait_input
+>>>>>>> e7146a3 (first commit)
