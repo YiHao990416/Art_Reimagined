@@ -18,7 +18,7 @@ input
 python preprocess/image_transform.py --input_dir input --output_dir data/portrait2photo --use_original True --transform_flip True --transform_crop True --transform_jitter True --transform_rotate True
 ```
 ## Training
-1. The model used is img2img-turbo which is based on Cycle-GAN architecture. The data contain all the necessary files and prompt.txt files required to train the model. For the detailed training of our model please refer to the github link below.
+1. The model used is img2img-turbo which is based on Cycle-GAN architecture. The /data folder contain all the necessary files and prompt.txt files required to train the model. For the detailed training of our model please refer to the github link below.
 
     Reference: https://github.com/GaParmar/img2img-turbo
 
@@ -28,3 +28,9 @@ python preprocess/image_transform.py --input_dir input --output_dir data/portrai
     <img src='checkpoint/example.png' align="center" width=800px>
     </p>
     </div>
+
+## Evaluation
+To evaluate the performance of the model, we provide a few metrics which can be found in the /evaluation folder.
+
+## Checkpoint
+To use the model without training, we provided a model checkpoint in the /checkpoint directory which you can download and use it on your own test data.
