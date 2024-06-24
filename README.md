@@ -17,5 +17,9 @@ input
 ```
 python preprocess/image_transform.py --input_dir input --output_dir data/portrait2photo --use_original True --transform_flip True --transform_crop True --transform_jitter True --transform_rotate True
 ```
+## Training
+1. The model used is img2img-turbo which is based on Cycle-GAN architecture. The data contain all the necessary files and prompt.txt files required to train the model. For the detailed training of our model please refer to the github link below.
 
+    Reference: https://github.com/GaParmar/img2img-turbo
 
+2. Our model is trained with defaut hyperparameters. The batch size used is 4 and the number of steps is 1500.
